@@ -33,7 +33,7 @@
                     <Label Content="Numbering from:" HorizontalContentAlignment="Left"/>
                     <TextBox Name="NumberingFrom" TextChanged="Search_TextChanged">0</TextBox>
                     <Label Content="Base Name:" HorizontalContentAlignment="Left"/>
-                    <TextBox Name="BaseName" TextChanged="Search_TextChanged">AudioTrack-</TextBox>
+                    <TextBox Name="BaseName" TextChanged="Search_TextChanged">-AudioTrack</TextBox>
                 </StackPanel>
             </GroupBox>
             <GroupBox Margin="10" Header="Action">

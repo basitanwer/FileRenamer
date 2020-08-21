@@ -52,7 +52,7 @@ namespace FileRenamer
                 map.Add(new FileName() 
                 { 
                     OldName = item, 
-                    NewName = BaseName.Text + pre + count++ + Path.GetExtension(item) 
+                    NewName = pre + count++ + BaseName.Text + Path.GetExtension(item) 
                 }); ;
             }
             Data.ItemsSource = map;
